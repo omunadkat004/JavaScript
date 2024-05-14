@@ -7,9 +7,9 @@
 
         var a = prompt("enter your number")
 
-        var isTrue = confirm("are u sure to leave your pc will blast")
+        var isTru = confirm("are u sure to leave your pc will blast")
 
-        if(isTrue)
+        if(isTru)
             {
                 console.log("ur pc will blast")
             }
