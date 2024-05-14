@@ -1,3 +1,4 @@
-console.log("code is running...")
-console.log("code is also  running...")
-console.log("code is not running...")
+
+// document.write("code is not running...")
+// document.write("hello")
+console.log("helloooo")
