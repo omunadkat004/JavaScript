@@ -1,4 +1,4 @@
 
-// document.write("code is not running...")
-// document.write("hello")
-console.log("helloooo")
+document.write("code is avengers running...")
+document.write("hello bkl ")
+console.log("helloooo bklll ")
