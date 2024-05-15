@@ -1,46 +1,46 @@
-// let arr = [1,2,3,4,5]
-// arr[0]= 566;
-// // array is mutable 
-// console.log(arr, typeof arr)
-// console.log(arr.length)
-// console.log(arr[0])
+let arr = [1,2,3,4,5]
+arr[0]= 566;
+// array is mutable 
+console.log(arr, typeof arr)
+console.log(arr.length)
+console.log(arr[0])
 
-// console.log(arr.toString())
-// console.log(arr.join(" and "))
+console.log(arr.toString())
+console.log(arr.join(" and "))
 
 // shift pop ka bhai and unshift push ka bhai 
-// SLICE 
-// SORT 
-// REVERSE 
+SLICE 
+SORT 
+REVERSE 
 
-// let a = [1,2,4,565,134]
+let a = [1,2,4,565,134]
 
-// for (let index = 0; index < a.length; index++) {
+for (let index = 0; index < a.length; index++) {
    
-//     console.log(a[index])
+    console.log(a[index])
     
-// }
+}
 
-// a.forEach((value, index, arr)=>
-// {
-//     console.log(value, index, arr)
-// })
+a.forEach((value, index, arr)=>
+{
+    console.log(value, index, arr)
+})
 
-// for (const iterator of a) {
-//     console.log(iterator)
+for (const iterator of a) {
+    console.log(iterator)
     
-// }
+}
 
-// map 
+map 
 
 // let newarr = [];
 
-// for (let index = 0; index <arrayy.length; index++) {
-//     const element =arrayy[index];
-//     newarr.push(element**2)
+for (let index = 0; index <arrayy.length; index++) {
+    const element =arrayy[index];
+    newarr.push(element**2)
     
-// }
-// console.log(newarr)
+}
+console.log(newarr)
 let arrayy = [1,2,3,4,5];
 
 let newarr = arrayy.map((e)=>
