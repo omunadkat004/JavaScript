@@ -1,9 +1,7 @@
-console.log("omm")
+// console.log("omm")
 
-
-let bhupendrajogis = document.getElementsByClassName("box")
-console.log(bhupendrajogis)
-
+// let bhupendrajogis = document.getElementsByClassName("box")
+// console.log(bhupendrajogis)
 
 bhupendrajogis[2].style.backgroundColor="red"
 // will color red whichever is 2nd index 
