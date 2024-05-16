@@ -12,11 +12,10 @@ function getRandomcolor()
     return ` rgb(${val1},${val2},${val3})`
 }
 
-Array.from(boxes).forEach(e=>
-    {
-        e.style.backgroundcolor = getRandomcolor()
-        e.style.color = getRandomcolor()
-    }
-)
+Array.from(boxes).forEach(e => {
+    e.style.backgroundColor = getRandomcolor(); // Corrected property name
+    e.style.color = getRandomcolor();
+});
+
 
 
