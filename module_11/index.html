@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="SCRIPT.JS"></script>
+    <style>
+        .bg-green{
+            background-color: red;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container red bg-green ">
+        <div class="box">hey i am a box</div>
+        <div class="box">hey i am a box</div>
+        <div class="box">hey i am a box</div>
+        <script>
+            let div = document.createElement("div");
+
+            div.innerHTML = "i am<b> Om </b>"
+            div.setAttribute("class", "created");
+            /*document.querySelector(".container").append(div)  */
+
+
+            document.querySelector(".container").before(div)
+            /* append , prepend , before , after , replace with */
+
+            /* will get to see that element which has been appended at last */
+
+
+            let cont = document.querySelector(".container")
+            cont.insertAdjacentHTML("afterend", "my name is Om Unadkat ")
+            /* afterbegin beforebegin , afterend , before end */
+
+            document.querySelector(".container").classList
+/*           0:"container"
+            1:"red"
+            2:"bg-green"
+            length:3
+            value: "container red bg-green "*/
+
+            document.querySelector(".container").className
+           /* 'container red bg-green '*/
+
+           /* adding class */
+           document.querySelector(".container").classList.add("Omm")
+            
+
+
+
+        </script>
+    </div>
+</body>
+
+</html>
