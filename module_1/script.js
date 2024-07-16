@@ -5,11 +5,11 @@
         console.log("code is also  running...")
         console.log("code is not running...")
 
-        var a = prompt("enter your number")
+        var b = prompt("enter your number")
 
-        var isTru = confirm("are u sure to leave your pc will blast")
+        var k = confirm("are u sure to leave your pc will blast")
 
-        if(isTru)
+        if(k)
             {
                 console.log("ur pc will blast")
             }
@@ -19,5 +19,5 @@
                 console.log("ur pc will not blast ")
             }
 
-        console.log("your number is" + a)
+        console.log("your number is" + b)
     
